@@ -85,7 +85,7 @@ jobs:
       with:
         node-version: 18
 
-    - uses: fusion-engineering/setup-git-credentials@v2
+    - uses: fusion-engineering/setup-git-credentials@v4
       with:
         credentials: ${{secrets.GIT_CREDENTIALS}}
 
